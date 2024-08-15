@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
+    <!-- AOS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     
@@ -44,23 +46,23 @@
 
     <!-- home section -->
      <section class="home-section" id="home">
-        <div class="home-text">
+        <div class="home-text" data-aos="fade-up" data-aos-duration="1400">
             <h4>Carving Art</h4>
             <h1>Bringing <br> Wood to Life</h1>
             <p>Expertly carved wooden sculptures and figurines that showcase the natural beauty and versatility of wood</p>
         </div>
 
-        <div class="home-img">
+        <div class="home-img" data-aos="zoom-in" data-aos-duration="1400">
             <img src="./image/hero.png" alt="">
         </div>
 
         <div class="social">
-            <a href="#"><i class="ri-facebook-fill"></i></a>
-            <a href="#"><i class="ri-instagram-line"></i></a>
-            <a href="#"><i class="ri-dribbble-line"></i></a>
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="200"><i class="ri-facebook-fill"></i></a>
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="300"><i class="ri-instagram-line"></i></a>
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="400"><i class="ri-dribbble-line"></i></a>
         </div>
 
-        <div class="arrow-box">
+        <div class="arrow-box" data-aos="zoom-in" data-aos-duration="1400" data-aos-delay="200">
             <a href="#about"><i class="ri-arrow-down-line"></i></a>
         </div>
      </section>
@@ -68,11 +70,11 @@
     
     <!-- about section -->
      <section class="about-section" id="about">
-        <div class="about-img">
+        <div class="about-img"  data-aos="zoom-in" data-aos-duration="1400">
             <img src="./image/about.png" alt="">
         </div>
 
-        <div class="about-text">
+        <div class="about-text" data-aos="fade-up" data-aos-duration="1400">
             <h2>Wood is my <br> Passion</h2>
             <p>Hi, I'm Jack, a wood carving artist with 20 years of experience in creating unique, handcrafted wooden masterpieces that tell a story. My skills in carving, design, and finishing have been honed over the years, allowing me to create stunning sculptures, figurines, furniture, and decorations.</p>
             <a href="#" class="btn">Viow My Work</a>
@@ -82,7 +84,7 @@
 
     <!-- shop section -->
      <section class="shop-section" id="shop">
-        <div class="head-text">
+        <div class="head-text" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
             <div class="head-left">
                 <h4>Best Selling</h4>
             </div>
@@ -92,7 +94,7 @@
             </div>
         </div>
 
-        <div class="shop-content">
+        <div class="shop-content" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
             <div class="box">
                 <div class="box-img">
                     <img src="./image/s1.png" alt="">
@@ -131,7 +133,7 @@
 
     <!-- exhibitions section -->
      <section id="exhibitions" class="exhibitions-section">
-        <div class="head-text">
+        <div class="head-text"  data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
             <div class="head-left">
                 <h4>Exhibitions</h4>
             </div>
@@ -142,11 +144,11 @@
         </div>
 
         <div class="exb-content">
-            <div class="exb-img">
+            <div class="exb-img"  data-aos="zoom-in" data-aos-duration="1400">
                 <img src="./image/exb.png" alt="">
             </div>
 
-            <div class="exb-text">
+            <div class="exb-text" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="300">
                 <div class="row">
                     <h5>Whispers in Wood: An Exploration of Nature's Beauty</h5>
                     <a href="#">22 March 2024 - 25 March 2024</a>
@@ -173,7 +175,7 @@
 
     <!-- contact section -->
      <section class="contact-section" id="contact">
-        <div class="contact-content">
+        <div class="contact-content"  data-aos="fade-up" data-aos-duration="1400" data-aos-delay="400">
             <h2>Let's Talk</h2>
             <hr>          
             <p>8500 Lorem Street, Chicago, IL 55030</p> 
@@ -200,5 +202,12 @@
     <!-- script file link -->
     <script src="./scripts/main.js"></script>
 
+    <!-- AOS script link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:1,
+      });
+    </script>
 </body>
 </html>
