@@ -297,3 +297,76 @@ header .navSide #menuBtn{
     font-size: 20px;
     border-radius: 0px 0.8rem 0px 0px;
 }
+
+
+/* exhibitions section */
+
+.exhibitions-section .head-text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.exhibitions-section .head-text .head-left h4{
+    font-size: var(--h2-font);
+    font-weight: 500;
+    font-family: "Forum", sans-serif;
+}
+
+.exhibitions-section .head-text .head-right h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.exhibitions-section .exb-content{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+}
+
+.exhibitions-section .exb-content .exb-img img{
+    min-width: 530px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0.8rem;
+}
+
+.exhibitions-section .exb-content .exb-text{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.exhibitions-section .exb-content .exb-text .row:not(:last-child){
+    border-bottom: 1px solid var(--main-color);
+    border-width: 40%;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.exhibitions-section .exb-content .exb-text .row:last-child{
+    cursor: pointer;
+}
+
+.exhibitions-section .exb-content .exb-text .row h5{
+    font-family: "Forum", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    transition: all 0.7s ease;
+}
+.exhibitions-section .exb-content .exb-text .row:hover h5{
+    color: var(--main-color);
+}
+
+.exhibitions-section .exb-content .exb-text .row a{
+    color: var(--main-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+}
