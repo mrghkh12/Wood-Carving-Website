@@ -424,3 +424,26 @@ header .navSide #menuBtn{
     background: var(--main-color);
     color: var(--bg-color);
 }
+
+
+/* footer section */
+footer{
+    padding: 20px 14%;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+footer .copyright p{
+    color: var(--other-color);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+footer .scrollTopBtn i{
+    display: inline-flex;
+    align-items: center;
+    
+}
