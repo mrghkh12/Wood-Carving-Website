@@ -1,0 +1,224 @@
+@media (max-width: 1880px) {
+  header {
+    padding: 20px 4% !important;
+  }
+  header.sticky {
+    padding: 13px 4% !important;
+  }
+  section {
+    padding: 80px 13% 70px !important;
+  }
+  .footer-section {
+    padding: 15px 4% !important;
+  }
+  .home-section .social {
+    padding: 0 4% !important;
+  }
+  .home-section .arrow-box {
+    bottom: 15% !important;
+    right: 30% !important;
+  }
+}
+
+@media (max-width: 1670px) {
+  :root {
+    --h1-font: 6.5rem !important;
+    --h2-font: 4.8rem !important;
+    --p-font: 1rem !important;
+  }
+}
+
+@media (max-width: 1460px) {
+  header {
+    padding: 20px 2% !important;
+  }
+  header.sticky {
+    padding: 13px 2% !important;
+  }
+  section {
+    padding: 80px 10% 70px !important;
+  }
+  .footer-section {
+    padding: 10px 4% !important;
+  }
+  .home-section .social {
+    padding: 0 2% !important;
+  }
+}
+
+@media (max-width: 1350px) {
+  .home-section .social {
+    display: none !important;
+  }
+  section {
+    padding: 80px 5% 70px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home-section {
+    height: 90vh !important;
+  }
+  :root {
+    --h1-font: 5.2rem !important;
+    --h2-font: 3.5rem !important;
+  }
+  .home-section .home-img img {
+    max-width: 500px !important;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+  .about-section .about-img img {
+    max-width: 500px !important;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+  .arrow-box {
+    bottom: 20% !important;
+    right: 30% !important;
+  }
+  .arrow-box i {
+    height: 50px !important;
+    width: 50px !important;
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .shop-section .shop-content {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto)) !important;
+  }
+  .exhibitions-section .exb-content {
+    grid-template-columns: 1fr !important;
+    gap: 3rem !important;
+  }
+  .exhibitions-section .exb-content .exb-img {
+    margin: 0 auto !important;
+    text-align: center !important;
+    order: 2 !important;
+  }
+  .exhibitions-section .exb-content .exb-text .row h5 {
+    font-size: 35px !important;
+  }
+}
+
+@media (max-width: 960px) {
+  section {
+    padding: 80px 2% !important;
+  }
+  .footer-section {
+    padding: 10px 2% !important;
+  }
+  :root {
+    --h1-font: 4.5rem !important;
+    --h2-font: 3rem !important;
+    --p-font: 15px !important;
+  }
+  .home-section .home-img img {
+    max-width: 380px !important;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+  .about-section .about-img img {
+    max-width: 380px !important;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+  .home-section {
+    height: 85vh;
+  }
+}
+
+@media (max-width: 830px) {
+  .arrow-box {
+    display: none !important;
+  }
+  .home-section {
+    grid-template-columns: 1fr !important;
+    height: 130vh !important;
+  }
+  .home-section .home-text {
+    padding-top: 50px !important;
+  }
+  .home-section .home-img {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  .home-section .home-img img {
+    max-width: 450px !important;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+  .about-section {
+    grid-template-columns: 1fr !important;
+  }
+  .about-section .about-img {
+    order: 2 !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  .about-section .about-img img {
+    max-width: 450px !important;
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+  header .navSide #menuBtn {
+    display: initial !important;
+  }
+  header .navMenuLink {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100vh !important;
+    padding: 70px 50px !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    backdrop-filter: blur(30px) !important;
+    transition: all 0.7s ease-in-out !important;
+  }
+  header .navMenuLink.open {
+    left: 0 !important;
+  }
+  header .navMenuLink a {
+    display: block !important;
+    padding: 0 !important;
+    margin: 0 0 32px 0 !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-section {
+    height: 140vh !important;
+  }
+  section {
+    padding: 70px 2% !important;
+  }
+  .contact-section .contact-content {
+    padding: 10px !important;
+  }
+  .contact-section .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-section .social-links a {
+    margin: 15px auto !important;
+  }
+  header .header-logo img {
+    max-width: 30px !important;
+  }
+  header .navSide .nav-btn {
+    padding: 10px 20px !important;
+    font-size: 13px !important;
+  }
+}
