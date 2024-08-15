@@ -20,3 +20,8 @@
     --h2-font: 5.5rem;
     --p-font: 1.1rem;
 }
+
+body{
+    color: var(--text-color);
+    background: linear-gradient(250.55deg, #120b07 0%, #311b0d 28.55% , #160D07 75.55%);
+}
